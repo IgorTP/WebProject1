@@ -1,0 +1,24 @@
+{% extends 'main_app/layout_article.html' %}
+{% load static %}
+
+{% block head %}
+{{ block.super }}
+<link rel="stylesheet" href="{% static 'main_app/css/index_styles.css' %}">
+{% endblock %}
+
+{% block main %}
+<article class="article">
+
+    <section class="article_part">
+        <h1 class="title_lvl_1">Ресурсы по python:</h1>
+
+        <nav class="links_navigator">
+            <ul>
+                <li><a href="{% url 'python_introduction' %}">Python. Начало.</a></li>
+                <li><a href="{% url 'python_base' %}">Python. Основы.</a></li>
+            </ul>
+        </nav>
+    </section>
+
+</article>
+{% endblock %}

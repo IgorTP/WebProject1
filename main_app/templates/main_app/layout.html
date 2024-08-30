@@ -1,0 +1,50 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Website</title>
+
+        <link rel="stylesheet" href="{% static 'main_app/css/layout_styles/MAIN_LAYOUT_STYLES.css' %}">
+
+        {% block head %}
+        {% endblock %}
+    </head>
+
+    <body>
+
+        <header class="header"></header>
+
+        <div class="content">
+            
+            <aside class="aside">
+
+                <div class="aside_header">
+                    <div class="container_logo_text">
+                        <img src="{% static 'main_app/images/python.svg' %}" alt="python_logo">
+                        <p>Python</p>
+                    </div>
+                </div>
+
+                <div class="main_menu">
+                    {% block main_menu %}
+                    {% endblock %}
+                </div>
+
+            </aside>
+
+            <main class="main">
+                {% block main %}
+                {% endblock %}
+            </main>
+        
+        </div>
+
+        {% block body %}
+        {% endblock %}
+
+    </body>
+</html>

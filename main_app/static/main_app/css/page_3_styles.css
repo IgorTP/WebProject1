@@ -1,0 +1,52 @@
+.article .article_part .python_code {
+    position: relative;
+    padding: 5px;
+
+    margin-top: 5px;
+}
+.article .visible-border {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.representation {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.article .article_part .main_container ul {
+    list-style: square;
+
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.article .article_part .main_container ul#list_conclusions {
+    list-style: disc;
+}
+.article .article_part .main_container ul li .text_indent {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+.btn_copy_code {
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 70px;
+    height: 40px;
+
+    position: absolute;
+
+    top: 10px;
+    right: 25px;
+
+    background-image: linear-gradient(to right, #FF7400, #FFEF00);
+    border: 3px solid black;
+
+    border-radius: 20px;
+}
+.btn_copy_code:hover {
+    transition: border-color 0.3s ease;
+    border-color: #1934FF;
+}

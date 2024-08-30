@@ -1,0 +1,7 @@
+.article .article_part .links_navigator ul {
+    list-style: none;
+    margin-left: 5px;
+}
+.article .article_part .links_navigator ul li a {
+    margin-left: 30px;
+}

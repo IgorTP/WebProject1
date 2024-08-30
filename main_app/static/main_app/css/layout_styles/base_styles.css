@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 10vh;
+
+    background-color: white;
+}
+.content {
+    display: flex; 
+}

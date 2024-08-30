@@ -1,0 +1,41 @@
+.article .article_part .text_lvl_1 {
+    margin-top: 15px;
+}
+
+.article .article_part ul {
+    list-style: none;
+    margin-left: 5px;
+}
+.container__img__text_lvl_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 10px;
+    margin-top: 5px;
+
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.container__img__text_lvl_2 p {
+}
+.container__img__text_lvl_2 img {
+    max-width: 250px;
+    max-height: 250px;
+
+    border-radius: 10px;
+}
+
+#guido_van_rossum p {
+    padding-right: 20px;
+}
+#guido_van_rossum img {
+    margin-right: 65px;
+}
+
+#flying_circus p {
+    padding-left: 20px;
+}
+#flying_circus img {
+    margin-left: 50px;
+}
